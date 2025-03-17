@@ -20,7 +20,7 @@ public class mainPangkat07 {
         System.out.println("=== HASIL PANGKAT BRUTEFORCE ===");
 
         for(pangkat07 p : png){
-            System.out.println(p.nilai+"^"+p.pangkat+": "+p.pangkatBF(p.nilai, p.pangkat));
+            System.out.println(p.nilai+"^"+p.pangkat+": "+p.pangkatBF());
         }
 
         System.out.println("=== HASIL PANGKAT DIVIDE AND CONQUER ===");
